@@ -7,7 +7,7 @@ import os
 import random
 import json
 
-nowtime = datetime.utcnow() + timedelta(hours=8)  
+nowtime = datetime.utcnow() + timedelta(hours=7)  
 today = datetime.strptime(str(nowtime.date()), "%Y-%m-%d")
 
 app_id = os.getenv("APP_ID")
